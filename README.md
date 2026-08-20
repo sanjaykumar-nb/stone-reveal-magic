@@ -54,7 +54,7 @@ This app uses TanStack Start with SSR, so deploy it as a server-rendered app on 
 2. In Netlify, create a new site from your Git repository.
 3. Use the values from `netlify.toml` (already committed):
 	- Build command: `npm run build`
-	- Environment: `NITRO_PRESET=netlify`, `NODE_VERSION=20`
+	- Environment: `NITRO_PRESET=netlify`, `NODE_VERSION=22`
 4. Trigger the first deploy.
 
 If Netlify asks for a publish directory, leave it empty and let the framework output be auto-detected.
